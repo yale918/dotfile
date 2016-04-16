@@ -17,3 +17,5 @@ alias cpsetting="sudo cp ~/.vimrc ~/coding/yale918.github.io/dotfile/.vimrc | cp
 alias ctc=' ctc() { cp $1 ~/coding/yale918.github.io/webpage/src; };ctc'
 alias mtc=' mtc() { mv $1 ~/coding/yale918.github.io/webpage/src; };mtc'
 alias aa='aa() { javac $1 | java $2; };aa'
+
+alias vimzsh='vim ~/.oh-my-zsh/lib/aliases.zsh'
