@@ -12,10 +12,12 @@ alias cf="cd ~/coding/yale918.github.io/lang/c"
 alias g1="git add --all"
 alias g2="git commit -m '..'"
 alias g3="git push https://yale918:yeah31212@github.com/yale918/yale918.github.io"
-alias g4="git push https://yale918:yeah31212@github.com/yale918/dotfiles"
+alias g4="git push https://yale918:yeah31212@github.com/yale918/dotfile"
 alias cpsetting="sudo cp ~/.vimrc ~/coding/yale918.github.io/dotfile/.vimrc | cp ~/.tmux.conf ~/coding/yale918.github.io/dotfile/.tmux.conf | cp ~/.bash_aliases ~/coding/yale918.github.io/dotfile/.bash_aliases"
 alias ctc=' ctc() { cp $1 ~/coding/yale918.github.io/webpage/src; };ctc'
 alias mtc=' mtc() { mv $1 ~/coding/yale918.github.io/webpage/src; };mtc'
 alias aa='aa() { javac $1 | java $2; };aa'
 
 alias vimzsh='vim ~/.oh-my-zsh/lib/aliases.zsh'
+aliase rezsh='. ~/.oh-my-zsh/lib/aliases.zsh'
+alias cpzsh='cp ~/coding/dotfile/.bash_aliases ~/.oh-my-zsh/lib/aliases.zsh'

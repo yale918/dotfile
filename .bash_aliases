@@ -19,3 +19,5 @@ alias mtc=' mtc() { mv $1 ~/coding/yale918.github.io/webpage/src; };mtc'
 alias aa='aa() { javac $1 | java $2; };aa'
 
 alias vimzsh='vim ~/.oh-my-zsh/lib/aliases.zsh'
+alias rezsh='. ~/.oh-my-zsh/lib/aliases.zsh'
+alias cpzsh='cp ~/coding/dotfile/.bash_aliases ~/.oh-my-zsh/lib/aliases.zsh'
